@@ -45,7 +45,7 @@
 #include "document_view.h"
 #include "pdf_view_opengl_widget.h"
 #include "config.h"
-#include "utf8.h"
+#include <utf8.h>
 #include "synctex/synctex_parser.h"
 #include "path.h"
 

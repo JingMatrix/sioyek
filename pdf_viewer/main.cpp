@@ -47,7 +47,7 @@
 #include <qsurfaceformat.h>
 
 #include <mupdf/fitz.h>
-#include "sqlite3.h"
+#include <sqlite3.h>
 
 
 #include "input.h"
@@ -60,7 +60,7 @@
 #include "document_view.h"
 #include "pdf_view_opengl_widget.h"
 #include "config.h"
-#include "utf8.h"
+#include <utf8.h>
 #include "main_widget.h"
 #include "path.h"
 #include "RunGuard.h"

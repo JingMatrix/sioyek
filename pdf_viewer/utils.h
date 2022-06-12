@@ -18,7 +18,7 @@
 #include <mupdf/fitz.h>
 
 #include "book.h"
-#include "utf8.h"
+#include <utf8.h>
 #include "coordinates.h"
 
 #define LL_ITER(name, start) for(auto name=start;(name);name=name->next)
